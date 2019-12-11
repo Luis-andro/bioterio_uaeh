@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es_mx">
+
+<head>
+   <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UAEH - Bioterio INVENTARIO DE ANIMALES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="_img/uaeh-icon.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/formulariologin.css">
+    <script type="text/javascript" src="controlador/ajxfuncionMenu.js"></script>
+    <link rel="stylesheet" href="/generalesDIyS/css/sweetalert.css" type="text/css"/>
+    <link href="/generalesDIyS/css/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/otros.css" />
+    <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+    <script src="js/botones.js"></script>
+
+
+
+</head>
+<!--primera parte del encabezado -->
+<body>
+    <div class="containerr">
+        <div class="row row-centered">
+            <div class="col-centered">
+                <a href="https://www.uaeh.edu.mx">
+                    <div class="logo hidden-xs"></div>
+                   
+                    <div id="encabezado_uaeh">Universidad Aut&oacute;noma del Estado de Hidalgo</div>
+                </a>
+                 <br>
+                     <div id="encabezado_dir">  DIRECCI&oacute;N DE SERVICIOS ACAD&eacute;MICOS</div>
+                 <br>
+                <a href="https://www.uaeh.edu.mx/bioterio/">
+                     <div id="encabezado_bioterio">Direcci&oacute;n de Bioterio</div>
+                </a>
+            </div>
+        </div>
+    </div>
+	
+	
+<!-- Segunda parte del encabezado-->	
+<div class="row-centrado rowbannertituloProfesorado"></div>
+        <div class="imgFondoindexTABLA"></div>
+        <div class="fondomenutop">
+
+    <div class="topnav">
+ <a href="indexformat2.php">FORMATO 02</a>
+<a href="principal1.php">Cerrar Sesion</a>
+</div>
+</div>
+
+
+
+
+        <div class="Contenido-Plataforma-Garza">
+
+            <div class="titulobien">
+
+
+                <div class="titulo-acceso"><b style="font-size: 2em; margin-top: 2%; font-weight: 100;">TABLA DE INVENTARIO DE ANIMALES</b></div>
+
+                  <table id="inventario">
+  <tr>
+    <th>Fecha</th>
+    <th>Area</th>
+    <th>Rata</th>
+    <th>Raton</th>
+    <th>Total</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+</table>
+
+<label for="ordenar">Ordenar por:</label>
+    <select id="ordenar" name="ordenar">
+      <option value="fecha">Fecha</option>
+      <option value="area">Area</option>
+      <option value="total">Total</option>
+    </select>
+  
+    <input type="submit" value="Ordenar">
+
+                    <button type="button"  onclick="accesar();"  id="btnEntrar" >Imprimir</button>
+
+                    <input type="hidden" id="username" name="username" value=""/>
+                <input type="hidden" id="sIdentificador" name="sIdentificador" value=""/>
+                </form>
+            </div>
+        </div>
+    </div>
+
+                <!-- fin bloque principal-->
+
+            </div>
+        </div>
+    </div>
+	
+	
+	
+
+	
+</html>

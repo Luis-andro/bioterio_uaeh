@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es_mx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UAEH - Bioterio TARJETA DE INVESTIGACIÓN </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="_img/uaeh-icon.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/formulariologin.css">
+    <script type="text/javascript" src="controlador/ajxfuncionMenu.js"></script>
+    <link rel="stylesheet" href="/generalesDIyS/css/sweetalert.css" type="text/css"/>
+    <link href="/generalesDIyS/css/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+    <div class="containerr">
+        <div class="row row-centered">
+            <div class="col-centered">
+                <a href="https://www.uaeh.edu.mx">
+                    <div class="logo hidden-xs"></div>
+                    <div id="encabezado_uaeh">Universidad Aut&oacute;noma del Estado de Hidalgo</div>
+               </a>
+                 <br>
+                     <div id="encabezado_dir">  DIRECCI&oacute;N GENERAL DE SERVICIOS ACAD&eacute;MICOS</div>
+                 <br>
+                <a href="https://www.uaeh.edu.mx/bioterio/">
+                     <div id="encabezado_bioterio">Direcci&oacute;n de Bioterio</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row-centrado rowbannertituloProfesorado"></div>
+    <div class="imgFondoindexGeneralAlumnado"></div>
+    <div class="fondomenutop">
+
+    <div class="topnav">
+ <a href=".php">FORMATO</a>
+  <a href="indexformat2.php">FORMATO 02</a>
+  <a href=".php">FORMATO</a>
+  <a href="indexformat7.php">FORMATO 07</a>
+<a href=".php">FORMATO</a>
+<a href="principal1.php">Cerrar Sesion</a>
+</div>
+</div>
+
+    <div class="Contenido-Plataforma-Garza-Login titulobien" style="text-align: center; ">
+        <div class="titulo-acceso"><b style="font-size: 2em; margin-top: 2%; font-weight: 100;">TARJETA DE INVESTIGACIÓN </b></div>
+        <div class="titulo-acceso"><b style="font-size: 1em; margin-top: 2%; font-weight: 100;">IDENTIFICACIÓN: DB-12 </b></div>
+        <!-- inicio bloque principal-->
+        <!-- login -->
+        <div class="login-page">
+            <div class="form">
+
+                <form class="login-form" id="" name="tarjeta_investigacion" method="post" action="">
+				
+					<input name="proyecto" type="text" id="" placeholder="PROYECTO" >
+					<input name="investigador" type="text" id="" placeholder="INVESTIGADOR" >
+					<input name="email" type="email" id="" placeholder="E-MAIL" >
+					<input name="telefono" type="text" id="" placeholder="TELÉFONO" >
+                    <br>   
+                    <hr>    
+                    <p >
+					F.T: <input name="txtFt" type="date" id="txtFt" data-date-format="YYYY MM DD" min="1900-01-01" style="width: 37%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				
+                    F.L: <input name="txtFl" type="date" id="txtFl" data-date-format="YYYY MM DD" min="1900-01-01" style="width: 38%" >
+					</p>
+                    <p> ESPECIE:
+										<select name="especie" style="width: 31.5%">
+											<option value="RATA"> RATA </option>
+											<option value="RATON"> RATON </option>
+											
+                    
+        					            </select> </p>
+                    <p >
+
+					<input name="macho" type="text" id="" placeholder="♂" style="width: 40%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input name="hembra" type="text" id="" placeholder="♀" style="width: 40%" >
+					</p>
+                    <input name="observaciones" type="text" id="observaciones" placeholder="OBSERVACIONES" >
+					
+
+                    <p align="center">
+                    <button type="button"  onclick="#"  id="btnGuardar">Enviar Solicitud</button><br><br>
+                    <p>
+                    <p class="message" align="center"><br>
+
+                    <a href="#"><b>Visualizar Solicitud</b></a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- fin login -->
+    <!-- fin bloque principal-->
+    <!-- inicio de footer-->
+    <div class="footer">
+        <div class="footer-inner">
+            <div class="footer-text">
+                <p><a class="l" href="http://www.uaeh.edu.mx/" target="_self">Principal UAEH</a></p>
+                <br>
+            </div>
+        </div>
+        <div class="footer-background"></div>
+    </div>
+    <!--TERMINA FOOTER -->
+    <div class="logoDMYS">
+    </div>
+    <!-- fin de footer-->
+    <script type="text/javascript" src="_jscript/jquery.min.js"></script>
+<script type="text/javascript" src="/generalesDIyS/_jscript/sweetalert.min.js"></script>
+<script type="text/javascript" src="_jscript/ajxAcceso.js?v=30679"></script>
+<script type="text/javascript">
+    function popUpSolic(URL) {
+        day = new Date();
+        id = day.getTime();
+        eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0, scrollbars=1,location=0,statusbar=0, menubar=0, resizable=0, width=580, height=390,left = 0,top = 0');");
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+* Formato 1:
+-Falta opciones para horario
+-Falta opciones para categoria
+-Linea
+
+*Formato 2:
+-Revisar el campo Tipo de área
+
+*Formato 5:
+-No. de folio puede ser automático 
+
+*Formato 7:
+-Se hará diariamente el registro
+-Solo mostrará la temperatura por meses
+
+*Formato 8:
+-Se hará diariamente el registro
+-Solo mostrará la temperatura por meses
+
+*Formato 16:
+-Se hará diariamente el registro
+-Solo mostrará la temperatura por meses
+
+----------------------------------
+data-date-format="YYYY MM DD" min="1900-01-01"
+
+
+<p align="center">
+                    <button type="button"  onclick="#"  id="btnGuardar">Enviar Solicitud</button><br><br>
+                    <p>
+                    <p class="message" align="center"><br>
+
+                    <a href="#"><b>Visualizar Solicitud</b></a></p>
+
+<p> ESPECIE: 
+										<select name="especie">
+											<option value="RATON"> RATÓN </option>
+											<option value="RATA"> RATA </option>
+										
+                    					</select></p>
+
+
+                    					<p> ÁREA: </p>
+                    <select name="mes">
+						<option value="reproduccion de ratones 1">Reproduccion de Ratones I </option>
+						<option value="reproduccion de ratones 2">Reproduccion de Ratones II </option>
+						<option value="reproduccion de ratas 1">Reproduccion de Ratas I </option>
+						<option value="reproduccion de ratas 2">Reproduccion de Ratas II </option>
+						<option value="cuarentena">Cuarentena </option>
+						<option value="aislamiento 1">Aislamiento I </option>
+						<option value="aislamiento 2">Aislamiento II </option>
+						<option value="aislamiento 3">Aislamiento III </option>
+						<option value="aislamiento 4">Aislamiento IV </option>
+						<option value="aislamiento 5">Aislamiento V </option>
+						<option value="aislamiento 1">Aislamiento VI </option>
+						</select>

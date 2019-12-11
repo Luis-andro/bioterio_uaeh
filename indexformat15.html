@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es_mx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UAEH - Bioterio REGISTRO ANUAL DE MORTALIDAD </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="_img/uaeh-icon.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/formulariologin.css">
+    <script type="text/javascript" src="controlador/ajxfuncionMenu.js"></script>
+    <link rel="stylesheet" href="/generalesDIyS/css/sweetalert.css" type="text/css"/>
+    <link href="/generalesDIyS/css/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+    <div class="containerr">
+        <div class="row row-centered">
+            <div class="col-centered">
+                <a href="https://www.uaeh.edu.mx">
+                    <div class="logo hidden-xs"></div>
+                    <div id="encabezado_uaeh">Universidad Aut&oacute;noma del Estado de Hidalgo</div>
+               </a>
+                 <br>
+                     <div id="encabezado_dir">  DIRECCI&oacute;N  DE SERVICIOS ACAD&eacute;MICOS</div>
+                 <br>
+                <a href="https://www.uaeh.edu.mx/bioterio/">
+                     <div id="encabezado_bioterio">Direcci&oacute;n de Bioterio</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row-centrado rowbannertituloProfesorado"></div>
+    <div class="imgFondoindexGeneralAlumnado"></div>
+    <div class="fondomenutop">
+
+    <div class="topnav">
+   <a href="indexformat1.php">Formato 1</a>
+  <a href="indexformat2.php">Formato 2</a>
+  <a href="indexformat3.php">Formato 3</a>
+  <a href="indexformat4.php">Formato 4</a>
+  <a href="indexformat5.php">Formato 5</a>
+  <a href="indexformat6.php">Formato 6</a>
+  <a href="indexformat7.php">Formato 7</a>
+  <a href="indexformat8.php">Formato 8</a>
+  <a href="indexformat9.php">Formato 9</a>
+  <a href="indexformat10.php">Formato 10</a>
+  <a href="indexformat18.php">Formato 18</a>
+<a href="principal1.php">Cerrar Sesion</a>
+</div>
+</div>
+
+    <div class="Contenido-Plataforma-Garza-Login titulobien" style="text-align: center; ">
+        <div class="titulo-acceso"><b style="font-size: 2em; margin-top: 2%; font-weight: 100;">REGISTRO ANUAL DE MORTALIDAD </b></div>
+        <div class="titulo-acceso"><b style="font-size: 1em; margin-top: 2%; font-weight: 100;">IDENTIFICACIÓN: DB-15 </b></div>
+        <!-- inicio bloque principal-->
+        <!-- login -->
+        <div class="login-page">
+            <div class="form">
+               <!-- <form class="register-form">
+                    <input type="text" placeholder="name" />
+                    <input type="password" placeholder="password" />
+                    <input type="text" placeholder="email address" />
+                    <button>create</button>
+                    <p class="message"><a href="#">Iniciar Sesión</a></p>
+                </form>-->
+                <form class="login-form" id="frmMortalidad" name="frmMortalidad" method="post" action="">
+
+                  
+				<p> MES: </p>
+                    <select name="mes">
+						<option value="enero"> Enero </option>
+						<option value="febrero"> Febrero </option>
+						<option value="merzo"> Marzo </option>
+						<option value="abril"> Abril </option>
+						<option value="mayo"> Mayo </option>
+						<option value="junio"> Junio </option>
+						<option value="julio"> Julio </option>
+						<option value="agosto"> Agosto </option>
+						<option value="septiembre"> Septiembre </option>
+						<option value="octubre"> Octubre </option>
+						<option value="noviembre"> Noviembre </option>
+						<option value="diciembre"> Diciembre </option>
+                    </select>
+                   
+
+                    <input name="txtMuertosM" type="text" id="txtMachos" placeholder="NO. DE MUERTOS MACHOS" />
+                   
+                   <input name="txtMuertosF" type="text" id="txtHembras" placeholder="NO. DE MUERTOS HEMBRAS" />
+
+                   <input name="txtEdad" type="text" id="txtEdad" placeholder="EDAD" />
+
+                    <input name="txtArea" type="text" id="txtArea" placeholder="ÁREA" />
+                    <p>TOTAL: </p>
+					
+                     <input name="txtAdultos" type="text" id="txtAdultos" placeholder="ADULTOS" />
+					 <input name="txtLactantes" type="text" id="txtLactantes" placeholder="LACTANTES" />
+					 <input name="txtCrecimiento" type="text" id="txtCrecimiento" placeholder="CRECIMIENTO" />
+
+                    <button type="button"  onclick="#"  id="btnGuardar" >Guardar</button><br><br>
+
+                    <p class="message"><br>
+
+                    <a href="inventario_animales.php"><b>Visualizar</b></a></p>
+
+                    <input type="hidden" id="username" name="username" value=""/>
+                <input type="hidden" id="sIdentificador" name="sIdentificador" value=""/>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- fin login -->
+    <!-- fin bloque principal-->
+    <!-- inicio de footer-->
+    <div class="footer">
+        <div class="footer-inner">
+            <div class="footer-text">
+                <p><a class="l" href="http://www.uaeh.edu.mx/" target="_self">Principal UAEH</a></p>
+                <br>
+            </div>
+        </div>
+        <div class="footer-background"></div>
+    </div>
+    <!--TERMINA FOOTER -->
+    <div class="logoDMYS">
+    </div>
+    <!-- fin de footer-->
+    <script type="text/javascript" src="_jscript/jquery.min.js"></script>
+<script type="text/javascript" src="/generalesDIyS/_jscript/sweetalert.min.js"></script>
+<script type="text/javascript" src="_jscript/ajxAcceso.js?v=30679"></script>
+<script type="text/javascript">
+    function popUpSolic(URL) {
+        day = new Date();
+        id = day.getTime();
+        eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0, scrollbars=1,location=0,statusbar=0, menubar=0, resizable=0, width=580, height=390,left = 0,top = 0');");
+    }
+</script>
+</body>
+
+</html>
